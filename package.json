@@ -1,0 +1,29 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "A real-time chat application built with React.js, Node.js, Express, and Socket.io",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm run install-server && npm run install-client"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "socket.io",
+    "chat",
+    "realtime",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "dependencies": {
+    "socket.io-client": "^2.2.0"
+  }
+}

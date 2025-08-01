@@ -32,3 +32,25 @@
     width: 60%;
   }
 }
+
+.typingIndicator {
+  padding: 10px 20px;
+  font-style: italic;
+  color: #666;
+  font-size: 0.9em;
+  background-color: #f0f0f0;
+  border-top: 1px solid #e0e0e0;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
